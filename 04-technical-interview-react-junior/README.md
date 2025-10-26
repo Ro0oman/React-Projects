@@ -24,3 +24,19 @@ import {createRoot} from 'react-dom/client'
 const root = createRoot(document.getElementById('app')) //Here we would render our app
 
 root.render(<h1>Hello World</h1>)
+
+
+===============
+
+Prueba técnica para Juniors y Trainees de React en Live Coding.
+APIs:
+
+Facts Random: https://catfact.ninja/fact
+
+Imagen random: `https://cataas.com/cat/says/${firstWord}$?size=50&color=red&json=true`
+
+Recupera un hecho aleatorio de gatos de la primera API
+
+Recuperar la primera palabra del hecho
+
+Muestra una imagen de un gato con la primera palabra.
