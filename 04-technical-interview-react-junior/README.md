@@ -9,6 +9,7 @@ React and React DOM
 npm install react react-dom -E
 
 Now create our vite config
+
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
@@ -16,3 +17,10 @@ export default defineConfig({
     plugins:[react()]
 })
 
+Rename the js file to jsx and set this(Update the import in HTML file too)
+
+import {createRoot} from 'react-dom/client'
+
+const root = createRoot(document.getElementById('app')) //Here we would render our app
+
+root.render(<h1>Hello World</h1>)
